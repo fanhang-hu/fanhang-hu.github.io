@@ -8,7 +8,8 @@
 # Site Settings
 title                    : "Fanhang Hu"
 description              : ""
-repository               : ""
+repository               : "fanhang-hu/fanhanghu.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
