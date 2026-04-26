@@ -17,16 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm Fanhang Hu, a master student at Southeast University, advised by Prof.[Peng Jiang]() and Dr.[Yuxin Ren]().
+I'm Fanhang Hu, a first year graduate student at Southeast University, advised by Prof.[Peng Jiang](https://jpdz.github.io/pengjiang/) and Dr.[Yuxin Ren](https://dblp.org/pid/162/7779-1.html/) in Huawei.
 
-My research interest includes Real-Time System and System Security.
+My research interest includes Real-Time System and System Security. And I'm discovering the integration of real-time systems and intrusion detection systems. A previous work we improved the real-time performance of a system auditing framework.
 
-I like keeping fit in my free time.
+In my spare time, I'm also a left-side trader in A-share market and I like keeping fit.
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 Join Prof.Peng Jiang's Group.
+- *2025.08*: &nbsp;🎉🎉 Our paper **"Predictable and Secure System Auditing for Real-Time Systems"** was accepted by RTSS'25.
+- *2024.10*: &nbsp;🎓🎓 Join [Prof.Peng Jiang's](https://jpdz.github.io/pengjiang/) Group at Southeast University.
 
-# 📝 Publications 
+# 📝 Publications
+- Peng Jiang, **Fanhang Hu**, Ruizhe Huang, Shuomin Xue, Zhaomeng Deng, Yuxin Ren, Ning Jia, Yao Guo, Xiangqun Chen, Ding Li, Guang Cheng. "Predictable and Secure System Auditing for Real-Time Systems." Real-Time System Symposium (RTSS'25, CCF A) [[PDF]](https://ieeexplore.ieee.org/document/11315100)
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
@@ -49,12 +51,12 @@ I like keeping fit in my free time.
 - *2023.09*, 2023 Chinese ROBOCUP, Robot Advanced Vision Competition - Industrial Measurement Project, National 3rd Prize.
 
 # 📖 Educations
-- *2025.09 - now*, Master, School of Cyber Science and Engineering, Southeast University.
-- *2021.09 - 2025.06*, Undergraduate, School of Computer and Artificial Intelligence, Zhengzhou University.
+- *2025.09 - now*, Network and Information Security, School of Cyber Science and Engineering, Southeast University.
+- *2021.09 - 2025.06*, Software Engineering, School of Computer and Artificial Intelligence, Zhengzhou University.
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2025.07 - now*, [China Unicom](https://www.chinaunicom.com.cn/), Safety Operations Center, China.
+- *2025.06 - 2025.09*, [China Unicom](https://www.chinaunicom.com.cn/), Safety Operations Center, Blue Team.
