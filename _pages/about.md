@@ -28,6 +28,8 @@ In my spare time, I'm also a left-side trader in A-share market and I like keepi
 - *2024.10*: &nbsp;🎓🎓 Join [Prof.Peng Jiang's](https://jpdz.github.io/pengjiang/) Group at Southeast University.
 
 # 📝 Publications
+- **Fanhang Hu**, Yinuo Yuan, Hanlin Jiang, Shaofei Li, Zhaomeng Deng, Yuxin Ren, Ning Jia, Peng Jiang. "CPScope: Adaptive Provenance for Real-Time Cyber-Physical Systems." Preprint.
+- Teng Zhu, **Fanhang Hu**. Yinuo Yuan, Tianmeng Yang, Yuxin Ren, Peng Jiang. "Answer-Support Audit: Benchmarking Logical-Operator Retention in Context Compression." Preprint.
 - Peng Jiang, **Fanhang Hu**, Ruizhe Huang, Shuomin Xue, Zhaomeng Deng, Yuxin Ren, Ning Jia, Yao Guo, Xiangqun Chen, Ding Li, Guang Cheng. "Predictable and Secure System Auditing for Real-Time Systems." Real-Time System Symposium (RTSS'25, CCF A) [[PDF]](https://ieeexplore.ieee.org/document/11315100)
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
