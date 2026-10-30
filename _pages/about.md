@@ -2,63 +2,58 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
-redirect_from: 
+layout: matei
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<span id="about"></span>
 
-<span class='anchor' id='about-me'></span>
+I'm Fanhang Hu, a graduate student at Southeast University, advised by Prof. [Peng Jiang](https://jpdz.github.io/pengjiang/) and Dr. [Yuxin Ren](https://dblp.org/pid/162/7779-1.html) at Huawei.
 
-I'm Fanhang Hu, a first year graduate student at Southeast University, advised by Prof.[Peng Jiang](https://jpdz.github.io/pengjiang/) and Dr.[Yuxin Ren](https://dblp.org/pid/162/7779-1.html/) in Huawei.
+<span id="research"></span>
 
-My research interest includes Real-Time System and System Security. And I'm discovering the integration of real-time systems and intrusion detection systems. A previous work we improved the real-time performance of a system auditing framework.
+My research interests include real-time systems and system security. I am particularly interested in integrating real-time systems with intrusion detection, and in improving the predictability of system auditing frameworks.
 
-In my spare time, I'm also a left-side trader in A-share market and I like keeping fit.
+Outside research, I follow the A-share market and enjoy fitness training.
 
-# 🔥 News
-- *2025.08*: &nbsp;🎉🎉 Our paper **"Predictable and Secure System Auditing for Real-Time Systems"** was accepted by RTSS'25.
-- *2024.10*: &nbsp;🎓🎓 Join [Prof.Peng Jiang's](https://jpdz.github.io/pengjiang/) Group at Southeast University.
+## News
 
-# 📝 Publications
-- **Fanhang Hu**, Yinuo Yuan, Hanlin Jiang, Shaofei Li, Zhaomeng Deng, Yuxin Ren, Ning Jia, Peng Jiang. "CPScope: Adaptive Provenance for Real-Time Cyber-Physical Systems." Preprint.
-- Teng Zhu, **Fanhang Hu**. Yinuo Yuan, Tianmeng Yang, Yuxin Ren, Peng Jiang. "Answer-Support Audit: Benchmarking Logical-Operator Retention in Context Compression." Preprint.
-- Peng Jiang, **Fanhang Hu**, Ruizhe Huang, Shuomin Xue, Zhaomeng Deng, Yuxin Ren, Ning Jia, Yao Guo, Xiangqun Chen, Ding Li, Guang Cheng. "Predictable and Secure System Auditing for Real-Time Systems." Real-Time System Symposium (RTSS'25, CCF A) [[PDF]](https://ieeexplore.ieee.org/document/11315100)
+- <span class="date">2025.08</span> — Our paper **“Predictable and Secure System Auditing for Real-Time Systems”** was accepted by RTSS 2025.
+- <span class="date">2024.10</span> — Joined [Prof. Peng Jiang's](https://jpdz.github.io/pengjiang/) group at Southeast University.
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
+<span id="publications"></span>
 
-<!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+## Publications
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun -->
+### Preprints
 
-<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- . 
-</div>
-</div> -->
+- <span class="publication-title">CPScope: Adaptive Provenance for Real-Time Cyber-Physical Systems.</span> **Fanhang Hu**, Yinuo Yuan, Hanlin Jiang, Shaofei Li, Zhaomeng Deng, Yuxin Ren, Ning Jia, and Peng Jiang.
+- <span class="publication-title">Answer-Support Audit: Benchmarking Logical-Operator Retention in Context Compression.</span> Teng Zhu, **Fanhang Hu**, Yinuo Yuan, Tianmeng Yang, Yuxin Ren, and Peng Jiang.
 
-<!-- Template -->
-<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+### 2025
 
-# 🎖 Honors and Awards
-- *2024.05*, 2024 Chinese ROBOCUP, Football Robot Competition - Simulation 2D Project, National 3rd Prize.
-- *2023.10*, 2023 Chinese ROBOCUP, Robot Advanced Vision Competition - 3D Recognition Project, National 3rd Prize.
-- *2023.09*, 2023 Chinese ROBOCUP, Robot Advanced Vision Competition - Industrial Measurement Project, National 3rd Prize.
+- <span class="publication-title">Predictable and Secure System Auditing for Real-Time Systems.</span> Peng Jiang, **Fanhang Hu**, Ruizhe Huang, Shuomin Xue, Zhaomeng Deng, Yuxin Ren, Ning Jia, Yao Guo, Xiangqun Chen, Ding Li, and Guang Cheng. *IEEE Real-Time Systems Symposium (RTSS), 2025.* [Paper](https://ieeexplore.ieee.org/document/11315100)
 
-# 📖 Educations
-- *2025.09 - now*, Network and Information Security, School of Cyber Science and Engineering, Southeast University.
-- *2021.09 - 2025.06*, Software Engineering, School of Computer and Artificial Intelligence, Zhengzhou University.
+<span id="education"></span>
 
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+## Education
 
-# 💻 Internships
-- *2025.06 - 2025.09*, [China Unicom](https://www.chinaunicom.com.cn/), Safety Operations Center, Blue Team.
+- <span class="date">2025.09–present</span> — M.S. in Network and Information Security, School of Cyber Science and Engineering, Southeast University.
+- <span class="date">2021.09–2025.06</span> — B.Eng. in Software Engineering, School of Computer and Artificial Intelligence, Zhengzhou University.
+
+<span id="experience"></span>
+
+## Experience
+
+- <span class="date">2025.06–2025.09</span> — Blue Team Intern, Security Operations Center, [China Unicom](https://www.chinaunicom.com.cn/).
+
+<span id="awards"></span>
+
+## Honors and Awards
+
+- <span class="date">2024.05</span> — National Third Prize, Football Robot Competition (Simulation 2D), Chinese RoboCup 2024.
+- <span class="date">2023.10</span> — National Third Prize, Robot Advanced Vision Competition (3D Recognition), Chinese RoboCup 2023.
+- <span class="date">2023.09</span> — National Third Prize, Robot Advanced Vision Competition (Industrial Measurement), Chinese RoboCup 2023.
