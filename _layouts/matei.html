@@ -3,29 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description | default: site.title | escape }}">
-    <title>{{ site.title }}</title>
+    <meta name="description" content="Fanhang Hu — graduate student researching real-time systems and system security.">
+    <meta name="theme-color" content="#f6f4ef">
+    <title>{{ site.title }} · Academic Homepage</title>
     <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/matei.css' | relative_url }}">
   </head>
   <body>
     <div class="site-shell">
-      <header class="site-header">
+      <header class="site-header" id="home">
         <div class="identity">
           <div class="identity-copy">
+            <p class="eyebrow">Academic homepage</p>
             <h1>{{ site.author.name }}</h1>
-            <p class="affiliation">Graduate Student<br>Southeast University</p>
+            <p class="affiliation">Graduate Student · Southeast University</p>
             <p class="profile-links">
-              <a href="mailto:{{ site.author.email }}">Email</a>
-              <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-              <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-              <a href="{{ site.author.linkedin }}">LinkedIn</a>
+              <a href="mailto:{{ site.author.email }}">Email <span aria-hidden="true">↗</span></a>
+              <a href="{{ site.author.googlescholar }}">Scholar <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="{{ site.author.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>
             </p>
           </div>
           <img class="portrait" src="{{ '/images/Fanhang.jpg' | relative_url }}" alt="Portrait of {{ site.author.name }}">
         </div>
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="#about">Home</a>
+          <a href="#about">About</a>
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
           <a href="#education">Education</a>
@@ -36,7 +38,7 @@
       <main>{{ content }}</main>
       <footer>
         <span>&copy; {{ 'now' | date: '%Y' }} {{ site.author.name }}</span>
-        <span>Last updated October 2026</span>
+        <a href="#home">Back to top ↑</a>
       </footer>
     </div>
   </body>
